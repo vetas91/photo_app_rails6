@@ -72,3 +72,8 @@ group :production do
   gem 'pg'
   gem 'rails_12factor'
 end
+
+gem "devise", "~> 4.9"
+gem "devise-bootstrap-views", "~> 1.1"
+gem "twitter-bootstrap-rails", "~> 5.0"
+
