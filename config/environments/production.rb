@@ -97,4 +97,8 @@ Rails.application.configure do
 
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { :host => 'photoappmy.com', :protocol => 'https'}
+
+  config.sass.preferred_syntax = :sass
+  config.sass.line_comments = false
+  config.sass.cache = false
 end

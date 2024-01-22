@@ -77,3 +77,5 @@ gem "devise", "~> 4.9"
 gem "devise-bootstrap-views", "~> 1.1"
 gem "twitter-bootstrap-rails", "~> 5.0"
 
+
+gem "sass-rails", "~> 6.0"
