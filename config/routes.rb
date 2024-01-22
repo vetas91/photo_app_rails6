@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  default_url_options :host => "photoappmy.com"
+
   devise_for :users
   root "welcome#index"
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
