@@ -79,3 +79,5 @@ gem "twitter-bootstrap-rails", "~> 5.0"
 
 
 gem "sass-rails", "~> 6.0"
+
+gem "stripe", "~> 10.6"
