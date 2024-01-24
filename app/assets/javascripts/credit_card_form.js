@@ -1,4 +1,4 @@
-    console.log('ready turbolinks:load NNNNO')
+console.log('ready turbolinks:load NNNNO')
 $(document).on('ready turbolinks:load', function () {
     console.log('ready turbolinks:load')
     var show_error, stripeResponseHandler, submitHandler;

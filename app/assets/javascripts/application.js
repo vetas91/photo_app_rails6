@@ -5,11 +5,7 @@
 // the compiled file.
 //
 // = require jquery
-//= require jquery_ujs
-//= require twitter/bootstrap
-//= require_tree .
+// = require jquery_ujs
+// = require twitter/bootstrap
+// = require_tree .
 
-
-import jquery from 'jquery'
-window.jQuery = jquery
-window.$ = jquery
