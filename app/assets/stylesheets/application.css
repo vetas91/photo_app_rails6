@@ -14,4 +14,10 @@
  *= require_self
  */
 
+
+.t-class {
+    background-color: #428bca;
+}
+
+
 @import "custom.scss";
