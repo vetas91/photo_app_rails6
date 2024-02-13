@@ -12,11 +12,11 @@
   <!-- Size should be 32 x 32 pixels -->
   <%= favicon_link_tag 'favicon.ico', :rel => 'shortcut icon' %>
 
-  <%= stylesheet_link_tag "application", :media => "all" %>
-  <%#= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+  <%#= stylesheet_link_tag "application", :media => "all" %>
+  <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
   <%#= javascript_include_tag "turbo", type: "module" %>
   <%#= javascript_include_tag "application" %>
-    <%= javascript_importmap_tags %>
+  <%= javascript_importmap_tags %>
 </head>
 <body>
 
@@ -37,7 +37,7 @@
           </li>
           <li class="col-md-1"></li>
           <li class="col-md-3 logout"><%= link_to('Logout', destroy_user_session_path,
-                                                  class: 'btn btn-xs btn-danger', title: 'Logout',  data: { turbo_confirm: "are you sure?", "turbo-method": :delete }) %></li>
+                                                  class: 'btn btn-xs btn-danger', title: 'Logout', data: { turbo_confirm: "are you sure?", "turbo-method": :delete }) %></li>
         <% else %>
           <li class="col-md-4 pull-right">
             <%= link_to('Sign In', new_user_session_path, class: 'btn btn-primary', title: 'Sign In') %>

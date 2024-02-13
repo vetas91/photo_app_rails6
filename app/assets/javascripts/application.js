@@ -4,14 +4,16 @@
 // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // the compiled file.
 //
+
 import "jquery"
 import "@hotwired/turbo-rails"
-import "controllers"
 
-import "popper"
+import "@popperjs/core"
 import "bootstrap"
 
+import 'plugins/credit_card_form'
 
+console.log('Application')
 // import jquery from 'jquery'
 // window.jQuery = jquery
 // window.$ = jquery
