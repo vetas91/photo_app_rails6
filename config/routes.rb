@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :images
   default_url_options :host => "photoappmy.com"
 
   devise_for :users, controllers: { registrations: "registrations" }
